@@ -1,0 +1,69 @@
+#geral {
+	border: solid 2px white;
+}
+.corpo {
+	display: flex;
+}
+.corpo2 {
+	display: block;
+}
+.cabecalho{
+	border:solid 2px black;
+	padding-top: 340px;
+	margin-left: 100px;
+	font-family: Arial;
+	font-size: 25px;
+	text-align: center;
+	color: #0000EE;
+	border-radius: 0 20px 20px 0;
+	margin-top: 10px;
+
+}
+.claro {
+	border: solid 2px red;
+	margin-right: 550px;
+	padding: 20px 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-right: 340px;
+	margin-top: 10px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px 0 #FF0000;
+}
+.oi {
+	border: solid 2px yellow;
+	margin-right: 550px;
+	margin-left: 10px;
+	margin-right: 340px;
+	padding: 20px 20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px 0 #FFFF00;
+}
+.formulario {
+	font-family: Arial;
+	border: solid 2px;
+	margin-top: 20px;
+	text-align: center;
+	margin-right: 340px;
+	margin-left: 100px;
+	border-radius: 0 20px 20px 20px;
+	margin-bottom: 20px;
+}
+.text1 {
+	margin-top: 10px;
+}
+.enviar {
+	margin-bottom: 5px;
+}
+.rodape {
+	border: solid 2px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 340px;
+	border-radius: 20px 20px 0 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Arial;
+}

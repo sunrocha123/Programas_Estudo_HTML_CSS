@@ -1,0 +1,144 @@
+/*Div Principal*/
+
+#principal {
+	border: solid 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 1180px;
+	border-color: white;
+	border-radius: 20px;
+}
+#principal:hover {
+	animation: print 5s;
+	-moz-animation: print 5s;
+	-webkit-animation: print 5s;
+	-o-animation: print 5s;
+}
+@keyframes print {
+	0% {
+		background-color: black;
+	}
+	50% {
+		background-color: red;
+	}
+	100% {
+		background-color: #00008B;
+	}
+}
+
+/*Div Secundária*/
+
+#secundaria {
+	border: solid 2px;
+	height: 1133px;
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+	padding-right: 745px;
+	background-color: white;
+	border-radius: 15px;
+	border-color: white;
+
+}
+.bloco1 {
+	width: 1218px;
+	height: 180px;
+	border: solid 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-color: white;
+}
+section.bloco2 {
+	margin-top: 20px;
+	margin-left: 10px;
+	border: solid 2px;
+	height: 700px;
+	width: 300px;
+	border-color: white
+}
+section.bloco3 {
+	margin-top: 20px;
+	margin-left: 10px;
+	border: solid 2px;
+	height: 700px;
+	width: 400px;
+	padding-left: 120px;
+	border-color: white
+}
+section.bloco4 {
+	margin-top: 20px;
+	margin-left: 10px;
+	border: solid 2px;
+	height: 700px;
+	width: 290px;
+	padding-right: 80px;
+	border-color: white
+}
+#terciario {
+	display: inline-flex;
+}
+section.bloco5 {
+	width: 1218px;
+	height: 180px;
+	border: solid 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-color: white
+}
+.img {
+	margin-left: 50px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: solid 2px #8B8989;
+	padding: 4px;
+	box-shadow: 2px 2px 0 0 #8B8989;
+}
+.img2 {
+	margin-left: 50px;
+	margin-top: 50px;
+	border-radius: 10px;
+	border: solid 2px #8B8989;
+	padding: 4px;
+	box-shadow: 2px 2px 0 0 #8B8989;
+}
+.img4 {
+	margin-left: 147px;
+	margin-top: 50px;
+	border-radius: 10px;
+	border: solid 2px #8B8989;
+	padding: 4px;
+	box-shadow: 2px 2px 0 0 #8B8989;
+}
+.titulo {
+	text-align: center;
+	padding-right: 65px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	font-size: 18px;
+}
+.img3 {
+	box-shadow: 6px 6px 0 0 #FFFF00;
+	border-radius: 20px;
+	margin-left: 30px;
+}
+.p1 {
+	column-rule: #556B2F solid;
+	columns: 2 50px;
+	text-align: justify;
+	padding-right: 40px;
+}
+.rodape {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: Arial;
+	font-size: 18px;
+	margin-top: 15px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
